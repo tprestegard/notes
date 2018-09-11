@@ -1,0 +1,5 @@
+daily_notes/* filter=git-crypt diff=git-crypt
+emfollowup/* filter=git-crypt diff=git-crypt
+important/* filter=git-crypt diff=git-crypt
+old/* filter=git-crypt diff=git-crypt
+current_todos.txt filter=git-crypt diff=git-crypt
