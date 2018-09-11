@@ -1,0 +1,2 @@
+python setup.py sdist - builds *source distribution*
+    MANIFEST.in - specifies extra files to add to source distribution
