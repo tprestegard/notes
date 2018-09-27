@@ -3,3 +3,5 @@ emfollowup/* filter=git-crypt diff=git-crypt
 important/* filter=git-crypt diff=git-crypt
 old/* filter=git-crypt diff=git-crypt
 current_todos.txt filter=git-crypt diff=git-crypt
+2018_09_25_maintenance_notes filter=git-crypt diff=git-crypt
+2018_09_25_aws_notes.txt filter=git-crypt diff=git-crypt
