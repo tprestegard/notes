@@ -1,0 +1,30 @@
+Computing group meeting April 30, 2019
+======================================
+Can be sharing of responsibilities with other people in the LIGO computing
+Get Alex P involved more in GraceDB
+Warren is going to handle weekly coordination of this group
+Replacing Tom
+    Get cluster/sysadmin stuff handed off to research computing on campus; provides continuity
+    Not sure when we will open a recruitment, depends on what campus can do for us; planning to investigate more in a few weeks
+
+
+New tasks
+------------------------------------
+Adam - Gitlab upgrades, changes, etc.
+Shawn - Condor, ESXi
+Patrick - frame file copying to UWM
+Tanner - AWS guy
+    Tom will contact Unisys to put my name in place of his everywhere
+    Credits with unisys will expire in August or September, need to identify a funding string going forward
+    Ask Patrick - can we throw $10K at this before the end of the fiscal year?
+
+
+Meeting with Scott and Tom
+--------------------------
+Arguments to ProxyPass that I should look at
+Can configure the ProxyPass with a TCP keepalive, can't set the time, picks it up from host, can be a pain
+Ask Scott for "hack" for formatting logs if we can't get it working in gunicorn (error log might be problematic)
+Look at 404 errors trying to get bayestar.fits - when was it uploaded? Are they querying even before it was uploaded?
+Default NFS4 mount option = async
+    EFS vs S3??
+Container volume
