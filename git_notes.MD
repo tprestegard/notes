@@ -1,6 +1,7 @@
 # Some useful git commands
 
 ## Misc
+* Add upstream to repo: `git remote add upstream URL`
 * Stop tracking an upstream branch: `git branch --unset-upstream`
 * Push a local branch to remote: `git push -u origin [branch_name]`
 * Delete a remote branch: `git push --delete origin [branch_name]`
@@ -17,6 +18,11 @@
 * Set a local repository as a remote: `git remote add repo_name /path/to/repo/.git`
 * Override local branch with git pull: `git fetch --all; git reset --hard origin/branch_name`
 * Pull a remote into another local branch without switching branches: `git fetch origin master:master`
+* Get an upstream branch into your fork:
+  * `git fetch upstream`
+  * `git checkout -b newbranch upstream/newbranch`
+  * `git push -u origin newbranch`
+* Remove old branches from remote: `git remote prune origin`
 
 ## Commits
 * Remove a specific commit: `git rebase -p --onto SHA1^ SHA1`
