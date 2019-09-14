@@ -1,0 +1,11 @@
+EFS
+---
+Can mount EFS locally using AWS DirectConnect or a VPN connection
+    - May be useful for local backups of files
+    - AWS DataSync (?) Might only be for backup from local to EFS, not the other way around...
+    - AWS Backup might be what we want
+Performance modes: General Purpose or Max I/O
+Throughput modes: Bursting or Provisioned
+Check on data encryption:
+    "At rest" encryption only available on creation. Can we check if this is done or not?
+    "In transit" = TLS and handled when mounting the file system.  Check on how we do this and if it is done or not.

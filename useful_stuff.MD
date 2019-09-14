@@ -1,5 +1,8 @@
 # Random useful notes
 
+## Sharing a tmux session
+tmux -S /tmp/shareds new -s shared
+
 ## Django
 
 * Get a count of most related objects:
