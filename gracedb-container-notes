@@ -1,0 +1,10 @@
+git clone https://git.ligo.org/tanner.prestegard/gracedb.git
+cd gracedb
+git checkout --track origin/docker
+docker build -t gracedb:tag-localdev -f docker/local_development/Dockerfile .
+cd docker/local_development
+docker-compose up --build
+
+Development
+===========
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up --build
